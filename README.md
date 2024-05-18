@@ -25,6 +25,13 @@ The data is organized in a ```.csv``` file as follows:
 - The texts have been labeled by human annotators, where the majority label has been chosen as label.
 - It is highly recommended to create a new Virtual Environment first before running the above commands.
 
+# Instruction for Virtual Environment
+- The ```venv``` module supports creating lightweight ```“virtual environments”```, each with their own independent set of Python packages installed in this implementation. 
+```
+python -m venv /path/to/new/virtual/environment
+```
+Running the above command creates the target directory (creating any parent directories that don’t exist already) and places a ```pyvenv.cfg``` file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is ```.venv```). It also creates a ```bin``` (or Scripts on Windows) subdirectory containing a copy of the Python ```binary/binaries``` (as appropriate for the platform or arguments used at environment creation time). It also creates an (initially empty) ```lib/pythonX.Y/site-packages``` subdirectory (on Windows, this is ```Lib\site-packages```). If an existing directory is specified, it will be re-used.
+
 # Step wise declaration.
 - contain data at D folder.
 - create a folder named input in the D folder.
